@@ -83,10 +83,11 @@ WSGI_APPLICATION = 'defect_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'regdefects',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '24397168',
-        'HOST': 'localhost'
+        'PASSWORD': 'iL0gUOeGgSSTvSnR0YSk',
+        'HOST': 'containers-us-west-102.railway.app',
+        'PORT': '6228',
     }
 }
 
